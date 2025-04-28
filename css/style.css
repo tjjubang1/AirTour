@@ -1133,9 +1133,17 @@ body {
     display: flex;
 }
 
+.fi2_l2 li{
+    padding-right: 30px;
+}
+
 .fi2_l3 {
     display: flex;
     padding-bottom: 30px;
+}
+
+.fi2_l3 li{
+    padding-right: 30px;
 }
 
 .fi2_c2 p {
