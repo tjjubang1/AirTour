@@ -531,30 +531,33 @@ body {
     height: 850px;
     background: url(../img/section3/s3_bg.jpg) no-repeat center;
 }
-.section3_inner{
+
+.section3_inner {
     width: 1320px;
     height: 850px;
     /* background-color: #ffc493; */
     margin: 0 auto;
     position: relative;
 }
+
 .s3_title {
     padding-top: 50px;
     text-align: center;
 }
 
 .s3_img1 {
-   position: absolute;
-   top: 27%;
-   left: -300px;
+    width: 100%;
+    position: absolute;
+    top: 27%;
+    left: -300px;
 }
 
 .s3_ticket {
-    width:1010px;
+    width: 100%;
     height: 536px;
     position: absolute;
     top: 33%;
-    right: -300px;
+    right: -455px;
     background: url(../img/section3/TICKET.png) no-repeat center top 0;
     /* background-color: #937861; */
 }
@@ -565,7 +568,7 @@ body {
     font-family: LeferiPoint-SpecialA;
     position: absolute;
     top: 18%;
-    left: 60px;
+    left: 210px;
 }
 
 .s3_text {
@@ -574,8 +577,8 @@ body {
     font-size: 20px;
     position: absolute;
     bottom: 18%;
-    left:90px;
-    
+    left: 240px;
+
 }
 
 .s3_text li:nth-child(2) {
@@ -590,10 +593,10 @@ body {
 
 /* section4 시작 */
 #section4 {
-    width:100%;
+    width: 100%;
     height: 950px;
     background: url(../img/section4/bg.jpg) no-repeat center;
-   
+
 }
 
 .s4_title {
@@ -790,37 +793,22 @@ body {
 
 /* 1c 시작*/
 .s5_1c {
-    width: 1320px;
-    height: 405px;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
-    position: relative;
     font-size: 20px;
     text-align: center;
-    background-color:#FF7D12;
 }
 
+.s5_1c img {
+    width: 100%;
+}
 
 .s5_title {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.s5_1c .s5_box1{
-    position: absolute;
-    top: 0;
-    left: -300px;
-}
-.s5_1c .s5_box2{
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.s5_1c .s5_box3{
-    position: absolute;
-    top: 0;
-    right: -300px;
-}
 
 
 /* 1c 끝 */
@@ -965,7 +953,7 @@ body {
 
 /* section7 시작 */
 #section7 {
-    width:100%;
+    width: 100%;
     height: 650px;
     text-align: center;
     background-color: #ac8a6f;
@@ -976,66 +964,6 @@ body {
     padding-bottom: 80px;
 }
 
-.s7_img1 {
-    position: relative;
-}
-
-.s7_img2 {
-    position: relative;
-}
-
-.s7_img3 {
-    position: relative;
-}
-
-.s7_img4 {
-    position: relative;
-}
-
-.s7_img5 {
-    position: relative;
-}
-
-.s7_img6 {
-    position: relative;
-}
-
-.s7_p1 {
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-}
-
-.s7_p2 {
-    position: absolute;
-    bottom: 0;
-    left: 27px;
-}
-
-.s7_p3 {
-    position: absolute;
-    bottom: 0;
-    left: 45px;
-}
-
-.s7_p4 {
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-}
-
-.s7_p5 {
-    position: absolute;
-    bottom: 0;
-    left: 28px;
-}
-
-.s7_p6 {
-    position: absolute;
-    bottom: 0;
-    left: 60px;
-}
-
 /* slider 시작 */
 #section7 .slider_wrap {
     overflow: hidden;
@@ -1044,7 +972,7 @@ body {
 }
 
 #section7 .slider2 {
-    width:100%;
+    width: 100%;
     height: 350px;
     position: absolute;
     top: 0;
@@ -1154,16 +1082,20 @@ body {
 .fi2_l2 {
     display: flex;
 }
-.fi2_l2 li{
+
+.fi2_l2 li {
     padding-right: 30px;
 }
+
 .fi2_l3 {
     display: flex;
     padding-bottom: 30px;
 }
-.fi2_l3 li{
+
+.fi2_l3 li {
     padding-right: 30px;
 }
+
 .fi2_c2 p {
     font-size: 12px;
     line-height: 20px;
@@ -1187,6 +1119,3 @@ body {
     display: block;
 }
 
-/* 
-aos넣기
-*/
